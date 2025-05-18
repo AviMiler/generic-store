@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "hashedpassword123",
+    "role": "customer",
+    "createdAt": "2025-01-10T10:15:00Z",
+    "lastLogin": "2025-05-10T14:30:00Z",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "phone": "+1-555-123-4567",
+    "isActive": true,
+    "orders": [
+      { "orderId": 101, "date": "2025-04-01", "amount": 299.99 },
+      { "orderId": 102, "date": "2025-05-05", "amount": 49.99 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "hashedpassword456",
+    "role": "admin",
+    "createdAt": "2024-12-15T08:20:00Z",
+    "lastLogin": "2025-05-12T11:00:00Z",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001"
+    },
+    "phone": "+1-555-987-6543",
+    "isActive": true,
+    "orders": []
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "email": "alice.j@example.com",
+    "password": "hashedpassword789",
+    "role": "customer",
+    "createdAt": "2025-02-20T09:45:00Z",
+    "lastLogin": "2025-05-13T15:00:00Z",
+    "address": {
+      "street": "789 Maple Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601"
+    },
+    "phone": "+1-555-321-4321",
+    "isActive": false,
+    "orders": [
+      { "orderId": 103, "date": "2025-03-10", "amount": 150.00 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "email": "michael.b@example.com",
+    "password": "hashedpassword101",
+    "role": "customer",
+    "createdAt": "2025-01-12T13:00:00Z",
+    "lastLogin": "2025-05-11T16:00:00Z",
+    "address": {
+      "street": "321 Oak St",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77001"
+    },
+    "phone": "+1-555-654-9870",
+    "isActive": true,
+    "orders": []
+  },
+  {
+    "id": 5,
+    "name": "Emma Wilson",
+    "email": "emma.w@example.com",
+    "password": "hashedpassword202",
+    "role": "customer",
+    "createdAt": "2025-03-15T11:45:00Z",
+    "lastLogin": "2025-05-10T14:45:00Z",
+    "address": {
+      "street": "678 Cedar Ave",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33101"
+    },
+    "phone": "+1-555-432-5678",
+    "isActive": true,
+    "orders": [
+      { "orderId": 104, "date": "2025-04-15", "amount": 99.99 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Olivia Taylor",
+    "email": "olivia.t@example.com",
+    "password": "hashedpassword303",
+    "role": "customer",
+    "createdAt": "2025-02-22T10:30:00Z",
+    "lastLogin": "2025-05-12T12:30:00Z",
+    "address": {
+      "street": "456 Pine Rd",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80201"
+    },
+    "phone": "+1-555-789-0123",
+    "isActive": false,
+    "orders": []
+  },
+  {
+    "id": 7,
+    "name": "Liam Martinez",
+    "email": "liam.m@example.com",
+    "password": "hashedpassword404",
+    "role": "admin",
+    "createdAt": "2025-04-10T09:00:00Z",
+    "lastLogin": "2025-05-13T13:00:00Z",
+    "address": {
+      "street": "789 Birch Ln",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94101"
+    },
+    "phone": "+1-555-876-5432",
+    "isActive": true,
+    "orders": []
+  },
+  {
+    "id": 8,
+    "name": "Sophia Hernandez",
+    "email": "sophia.h@example.com",
+    "password": "hashedpassword505",
+    "role": "customer",
+    "createdAt": "2025-03-30T14:30:00Z",
+    "lastLogin": "2025-05-14T10:00:00Z",
+    "address": {
+      "street": "321 Spruce St",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02101"
+    },
+    "phone": "+1-555-098-7654",
+    "isActive": true,
+    "orders": [
+      { "orderId": 105, "date": "2025-05-01", "amount": 59.99 }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Noah Robinson",
+    "email": "noah.r@example.com",
+    "password": "hashedpassword606",
+    "role": "customer",
+    "createdAt": "2025-01-05T16:00:00Z",
+    "lastLogin": "2025-05-13T18:00:00Z",
+    "address": {
+      "street": "654 Walnut Ave",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "phone": "+1-555-321-0987",
+    "isActive": true,
+    "orders": []
+  },
+  {
+    "id": 10,
+    "name": "Isabella Clark",
+    "email": "isabella.c@example.com",
+    "password": "hashedpassword707",
+    "role": "customer",
+    "createdAt": "2025-02-10T15:00:00Z",
+    "lastLogin": "2025-05-12T17:00:00Z",
+    "address": {
+      "street": "987 Redwood Dr",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85001"
+    },
+    "phone": "+1-555-654-3210",
+    "isActive": true,
+    "orders": [
+      { "orderId": 106, "date": "2025-03-20", "amount": 79.99 }
+    ]
+  }
+]

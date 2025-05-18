@@ -1,0 +1,26 @@
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    width: 80%;
+    height: 5%;
+    border: 2px solid #007bff;
+
+}
+.searchBar input{
+    width: 80%;
+    height: 100%;
+    border: 0px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+.searchBar button{
+    width: 20%;
+    height: 100%;
+    background-color: #007bff;
+    border: 0px solid;
+    color: white;
+    cursor: pointer;
+    font-size: 160%;
+}

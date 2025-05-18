@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  max-width: 1200px;  
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.NavLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 15%;
+  color: black;
+  text-decoration: none;
+  font-size: 200%;
+}
+.NavLink:hover {
+  color: red;
+}
+.NavLink.active {
+  color: red;
+}
+.homeButton {
+  height: 100%;
+}
+.activeHomeButton .logo {
+  content: url("../assets/store_red_logo.png");
+}
+.homeButton:hover .logo {
+  content: url("../assets/store_red_logo.png");
+}
+.logo {
+  height: 100%;
+}
+.cartNav {
+  height: 100%;
+}
+.cartNav .logo{
+  height: 100%;
+}
+.activeCartNav .logo {
+  content: url("../assets/cart_red_img.png");
+}
+.cartNav:hover .logo {
+  content: url("../assets/cart_red_img.png");
+}
